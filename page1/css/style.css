@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  
+
+}
+
+body {
+  box-sizing: border-box;
+}
+
+ul {
+  color: black;
+  display: flex;
+  align-items: center
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li {
+  padding: 28px 17px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 366px;
+    margin-right: 366px;
+}
+main {
+  background-color:#19E68C ;
+}
