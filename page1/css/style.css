@@ -167,18 +167,18 @@ footer {
   box-sizing: border-box;
   padding: 60px 0;
   display:flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-img {
-  
   justify-content: space-between;
-
 }
+
+
 
 .footer-col {
   margin: 0 15px;
-
 }
 
 h4 {
@@ -195,17 +195,24 @@ h4 {
 .social-links {
   display: flex;
   background-color: black;
+  gap: 15px;
 }
 
 .social-links img {
-  background-color: #fff;
-  width: 24px;
+  background-color: white;
+  width: 25px;
+  color: #1ed760;
+}
+
+.social-links img:hover {
+  background-color: #1ed760;
 }
 
 .social-links li {
   padding: 15px;
   border-radius: 50%;
-  height: 30px;
+  height: 25px;
+  background-color: #222326;
 }
 
 .companie-list {
@@ -217,14 +224,68 @@ h4 {
 
 .companie-list li {
   padding: 3px 0 15px;
+  width: 119px;
 }
 
 .footer-wrap {
   display: flex;
   max-width: 1170px;
   width: 100%;
+  gap: 50px;
 }
 
 .spacer {
   flex: 1 0;
+}
+
+.romania {
+  font-size: 12px;
+  margin: px -400px;
+  display: flex;
+  flex-direction: row;
+  color: #919496;
+  max-width: 1170px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.romania a {
+  color:#919496;
+}
+
+.romania a:hover {
+  color: #1ed760;
+}
+
+.legal-informati {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  width: 100%;
+  flex-direction: row;
+  text-transform: uppercase;
+  gap: 30px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  
+  color: #919496;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.legal-informati a {
+  color: #919496;
+}
+
+.legal-informati a:hover {
+  color: #1ed760;
+}
+
+.space-word {
+  display: flex;
+  gap: 20px;
 }
