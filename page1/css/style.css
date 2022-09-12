@@ -138,7 +138,6 @@ font-weight: 900;
 .devices-list{
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
   list-style-type: style circle;;
   gap: 15px;
   margin: 25px 0;
